@@ -1,4 +1,5 @@
 <h1>PROYECTO AMIGO SECRETO</h1>
+<h2>Inicio</h2>
   <ul>
     <li>Descargar archivo base para la realización del proyecto.</li>
     <li>Crear un nuevo repositorio en Github.</li>
