@@ -45,4 +45,4 @@ function sortearAmigo() {
         let numeroSorteado = Math.floor(Math.random() * listaNombres.length); 
         let amigoSorteado = listaNombres[numeroSorteado]; 
         alert("El amigo sorteado es: " + amigoSorteado); 
-} 
+}
