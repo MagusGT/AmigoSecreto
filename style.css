@@ -23,6 +23,48 @@ body {
     align-items: center;
 }
 
+/* filepath: [style.css](http://_vscodecontentref_/1) */
+/* Estilos para la barra de navegación principal */
+.main-nav {
+    background: var(--color-bg-nav, #f5f5f5);
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-primary, #2d2d2d);
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    background: var(--color-accent, #e0e7ff);
+    color: var(--color-secondary, #4f46e5);
+    outline: none;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
